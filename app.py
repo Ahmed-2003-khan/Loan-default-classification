@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # Load model and feature names
-with open('model.pkl', 'rb') as file:
+with open('model1.pkl', 'rb') as file:
     model = pickle.load(file)
 
 with open('feature_names.json', 'r') as file:
